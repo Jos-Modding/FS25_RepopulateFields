@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="110">
+    <author>Jos</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Repopulate Fields</en>
+        <de>Felder Neu Befüllen</de>
+    </title>
+    <description>
+        <en><![CDATA[Repopulate Fields lets you reset fields to a randomised state with a single button press.
+
+Each field receives a random crop at a random growth stage, along with randomised soil conditions: spray level, plow level, lime level, weed state, and ground type. Grass-only fields always receive grass.
+
+Four options are available, both as console commands and as buttons in the in-game Settings menu:
+- Repopulate All Fields
+- Repopulate Owned Fields
+- Repopulate Unowned Fields
+- Repopulate Current Field (the field the player is standing in)
+
+Useful for starting a new save with populated fields, resetting a map mid-game, or testing crop growth behaviour.
+]]>
+        </en>
+        <de><![CDATA[Repopulate Fields ermöglicht es, Felder mit einem einzigen Knopfdruck in einen zufälligen Zustand zurückzusetzen.
+
+Jedes Feld erhält eine zufällige Frucht in einem zufälligen Wachstumsstadium sowie zufällige Bodenbedingungen: Düngepegel, Pflügepegel, Kalkpegel, Unkrautzustand und Bodentyp. Reine Grünlandfelder erhalten immer Gras.
+
+Vier Optionen stehen zur Verfügung – sowohl als Konsolenbefehle als auch als Schaltflächen im Einstellungsmenü:
+- Alle Felder neu befüllen
+- Eigene Felder neu befüllen
+- Fremde Felder neu befüllen
+- Aktuelles Feld neu befüllen (das Feld, auf dem der Spieler steht)
+
+Nützlich für den Start eines neuen Spielstands mit belegten Feldern, zum Zurücksetzen einer Karte während des Spiels oder zum Testen des Pflanzenwachstums.
+]]>
+        </de>
+    </description>
+    <iconFilename>icon_RepopulateFields.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <l10n filenamePrefix="l10n/l10n"/>
+    <extraSourceFiles>
+        <sourceFile filename="src/UIHelper.lua"/><!-- Credits to Argsy Gaming -->
+        <sourceFile filename="src/main.lua"/>
+    </extraSourceFiles>
+</modDesc>

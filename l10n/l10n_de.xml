@@ -1,0 +1,13 @@
+<l10n>
+    <elements>
+        <e k="repopulateFields_sectionHeader" v="Felder neu befüllen"/>
+        <e k="repopulateAllFields_title" v="Alle Felder"/>
+        <e k="repopulateAllFields_button" v="Neu befüllen"/>
+        <e k="repopulateOwnedFields_title" v="Eigene Felder"/>
+        <e k="repopulateOwnedFields_button" v="Neu befüllen"/>
+        <e k="repopulateUnownedFields_title" v="Fremde Felder"/>
+        <e k="repopulateUnownedFields_button" v="Neu befüllen"/>
+        <e k="repopulateCurrentField_title" v="Aktuelles Feld"/>
+        <e k="repopulateCurrentField_button" v="Neu befüllen"/>
+    </elements>
+</l10n>

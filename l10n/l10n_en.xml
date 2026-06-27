@@ -1,0 +1,13 @@
+<l10n>
+    <elements>
+        <e k="repopulateFields_sectionHeader" v="Repopulate Fields"/>
+        <e k="repopulateAllFields_title" v="All Fields"/>
+        <e k="repopulateAllFields_button" v="Repopulate"/>
+        <e k="repopulateOwnedFields_title" v="Owned Fields"/>
+        <e k="repopulateOwnedFields_button" v="Repopulate"/>
+        <e k="repopulateUnownedFields_title" v="Unowned Fields"/>
+        <e k="repopulateUnownedFields_button" v="Repopulate"/>
+        <e k="repopulateCurrentField_title" v="Current Field"/>
+        <e k="repopulateCurrentField_button" v="Repopulate"/>
+    </elements>
+</l10n>
