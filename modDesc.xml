@@ -12,12 +12,10 @@
 Each field receives a random crop at a random growth stage, along with randomised soil conditions: spray level, plow level, lime level, weed state, and ground type. Grass-only fields always receive grass.
 
 Four options are available, both as console commands and as buttons in the in-game Settings menu:
-- Repopulate All Fields
-- Repopulate Owned Fields
-- Repopulate Unowned Fields
-- Repopulate Current Field (the field the player is standing in)
-
-Useful for starting a new save with populated fields, resetting a map mid-game, or testing crop growth behaviour.
+- Repopulate All Fields (command: repopulateUnownedFields)
+- Repopulate Owned Fields (command: repopulateOwnedFields)
+- Repopulate Unowned Fields (command: repopulateUnownedFields)
+- Repopulate Current Field (command: repopulateCurrentField)
 ]]>
         </en>
         <de><![CDATA[Repopulate Fields ermöglicht es, Felder mit einem einzigen Knopfdruck in einen zufälligen Zustand zurückzusetzen.
@@ -25,12 +23,10 @@ Useful for starting a new save with populated fields, resetting a map mid-game, 
 Jedes Feld erhält eine zufällige Frucht in einem zufälligen Wachstumsstadium sowie zufällige Bodenbedingungen: Düngepegel, Pflügepegel, Kalkpegel, Unkrautzustand und Bodentyp. Reine Grünlandfelder erhalten immer Gras.
 
 Vier Optionen stehen zur Verfügung – sowohl als Konsolenbefehle als auch als Schaltflächen im Einstellungsmenü:
-- Alle Felder neu befüllen
-- Eigene Felder neu befüllen
-- Fremde Felder neu befüllen
-- Aktuelles Feld neu befüllen (das Feld, auf dem der Spieler steht)
-
-Nützlich für den Start eines neuen Spielstands mit belegten Feldern, zum Zurücksetzen einer Karte während des Spiels oder zum Testen des Pflanzenwachstums.
+- Alle Felder neu befüllen (befehl: repopulateUnownedFields)
+- Eigene Felder neu befüllen (befehl: repopulateOwnedFields)
+- Fremde Felder neu befüllen (befehl: repopulateUnownedFields)
+- Aktuelles Feld neu befüllen (befehl: repopulateCurrentField)
 ]]>
         </de>
     </description>
