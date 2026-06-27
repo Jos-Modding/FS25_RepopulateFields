@@ -12,10 +12,12 @@
 Each field receives a random crop at a random growth stage, along with randomised soil conditions: spray level, plow level, lime level, weed state, and ground type. Grass-only fields always receive grass.
 
 Four options are available, both as console commands and as buttons in the in-game Settings menu:
-- Repopulate All Fields (command: repopulateUnownedFields)
+- Repopulate All Fields (command: repopulateAllFields)
 - Repopulate Owned Fields (command: repopulateOwnedFields)
 - Repopulate Unowned Fields (command: repopulateUnownedFields)
 - Repopulate Current Field (command: repopulateCurrentField)
+
+In multiplayer, admin rights are required to use any of these options.
 ]]>
         </en>
         <de><![CDATA[Repopulate Fields ermöglicht es, Felder mit einem einzigen Knopfdruck in einen zufälligen Zustand zurückzusetzen.
@@ -23,10 +25,12 @@ Four options are available, both as console commands and as buttons in the in-ga
 Jedes Feld erhält eine zufällige Frucht in einem zufälligen Wachstumsstadium sowie zufällige Bodenbedingungen: Düngepegel, Pflügepegel, Kalkpegel, Unkrautzustand und Bodentyp. Reine Grünlandfelder erhalten immer Gras.
 
 Vier Optionen stehen zur Verfügung – sowohl als Konsolenbefehle als auch als Schaltflächen im Einstellungsmenü:
-- Alle Felder neu befüllen (befehl: repopulateUnownedFields)
+- Alle Felder neu befüllen (befehl: repopulateAllFields)
 - Eigene Felder neu befüllen (befehl: repopulateOwnedFields)
 - Fremde Felder neu befüllen (befehl: repopulateUnownedFields)
 - Aktuelles Feld neu befüllen (befehl: repopulateCurrentField)
+
+Im Mehrspieler-Modus sind Administratorrechte erforderlich, um diese Optionen zu nutzen.
 ]]>
         </de>
     </description>

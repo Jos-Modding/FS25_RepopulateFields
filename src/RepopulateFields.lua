@@ -18,7 +18,17 @@ function RepopulateFields.new()
 end
 
 ---
+function RepopulateFields:isAdmin()
+    return g_currentMission:getIsServer() or g_currentMission.isMasterUser
+end
+
+---
 function RepopulateFields:consoleCommandRepopulateAllFields()
+    if not RepopulateFields:isAdmin() then
+        Logging.warning("[RepopulateFields]: Admin permission required")
+        return
+    end
+
     local fields = {}
 
     for _, field in pairs(g_fieldManager:getFields()) do
@@ -30,6 +40,11 @@ end
 
 ---
 function RepopulateFields:consoleCommandRepopulateOwnedFields()
+    if not RepopulateFields:isAdmin() then
+        Logging.warning("[RepopulateFields]: Admin permission required")
+        return
+    end
+
     local fields = {}
 
     for _, field in pairs(g_fieldManager:getFields()) do
@@ -43,6 +58,11 @@ end
 
 ---
 function RepopulateFields:consoleCommandRepopulateUnownedFields()
+    if not RepopulateFields:isAdmin() then
+        Logging.warning("[RepopulateFields]: Admin permission required")
+        return
+    end
+
     local fields = {}
 
     for _, field in pairs(g_fieldManager:getFields()) do
@@ -56,6 +76,11 @@ end
 
 ---
 function RepopulateFields:consoleCommandRepopulateCurrentField()
+    if not RepopulateFields:isAdmin() then
+        Logging.warning("[RepopulateFields]: Admin permission required")
+        return
+    end
+
     local fields = {}
     local fieldId = g_fieldManager:getFieldIdAtPlayerPosition()
 
@@ -176,9 +201,11 @@ function RepopulateFields:extendSettingsScreen()
     local buttonNames = {"repopulateAllFields", "repopulateOwnedFields", "repopulateUnownedFields", "repopulateCurrentField"}
 
     InGameMenuSettingsFrame.onFrameOpen = Utils.appendedFunction(InGameMenuSettingsFrame.onFrameOpen, function(frame)
+        local disabled = not RepopulateFields:isAdmin()
+
         for _, name in ipairs(buttonNames) do
             if frame[name] then
-                frame[name]:setDisabled(false)
+                frame[name]:setDisabled(disabled)
             end
         end
     end)
