@@ -1,0 +1,7 @@
+_*
+*.md
+!README.md
+*.zip
+!.gitattributes
+*.exe
+.idea

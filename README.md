@@ -9,3 +9,5 @@ Four options are available, both as console commands and as buttons in the in-ga
 - Repopulate Owned Fields (command: repopulateOwnedFields)
 - Repopulate Unowned Fields (command: repopulateUnownedFields)
 - Repopulate Current Field (command: repopulateCurrentField)
+
+In multiplayer, admin rights are required to use any of these options.
